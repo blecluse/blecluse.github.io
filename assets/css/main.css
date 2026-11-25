@@ -2256,3 +2256,8 @@ input, select, textarea {
 			
 
 		
+/* Bilingual navigation */
+.language-button { position: absolute; top: 20px; right: 20px; z-index: 10001; padding: 6px 14px; border: 1px solid #4A621F; border-radius: 5px; background: #fff; color: #4A621F; font-size: 14px; line-height: 1.5; text-decoration: none; }
+.language-button:hover, .language-button:focus { background: #edf2e6; color: #333; }
+#wrapper { position: relative; }
+#wrapper > .wrapper > .inner { padding-top: max(4em, 64px); }
